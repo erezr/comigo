@@ -10,13 +10,35 @@
   <body>
 
     <header>
-      <img src="assets/logo/comigo-logo-black.png" alt="comigo logo">
+      <a href="./index.html"><img src="assets/logo/comigo-logo-black.png" alt="comigo logo"></a>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Our Solution</a></li>
+          <li><a href="#">Our Solution</a>
+            <ul>
+              <li><a href="#">EI CLOUD</a>
+                <ul>
+                  <li><a href="#">EIX</a></li>
+                  <li><a href="#">EI mind</a></li>
+                </ul>
+              </li>
+              <li><a href="#">EI middleware</a>
+                <ul>
+                  <li><a href="#">android</a></li>
+                  <li><a href="#">comigo whatchapp tm application></a></li>
+                </ul>
+              </li>
+              <li><a href="#">android stb</a></li>
+            </ul>
+          </li>
           <li><a href="#">Partners</a></li>
-          <li><a href="#">Industry Insights</a></li>
+          <li><a href="#">Industry Insights</a>
+            <ul>
+              <li><a href="#">media room</a></li>
+              <li><a href="#">blog</a></li>
+              <li><a href="#">industry events</a></li>
+            </ul>
+          </li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -26,41 +48,22 @@
     <main>
       <section id="welcome_headline">
         <h1>Make your PTT shine with the Experience Intelligence Cloud</h1>
-        <button type="submit">Schedule a demo</button>
+        <a href="#">Schedule a demo</a>
       </section>
 
       <section id="why_comigo">
-        <h1>Why Comigo</h1>
+        <h2>Why Comigo</h2>
         <p>Creating a TV that understands, with automatic metadata enrichment and Artificial Intelligence (Al)</p>
-        <button>Learn more</button>
+        <a href="#">Learn more</a>
       </section>
 
       <section id="services">
         <h2>Engage viewers, differentiate experience and drive new revenue</h2>
         <h3>With highly-relevant contextual services</h3>
-        <ul id="services-names">
-          <li>
-            <a href="#pedia">pedia</a>
-          </li>
-          <li>
-            <a href="#pedparticipation">pedparticipation</a>
-          </li>
-          <li>
-            <a href="#discovery">discovery</a>
-          </li>
-          <li>
-            <a href="#commerce">commerce</a>
-          </li>
-          <li>
-            <a href="#advertising">advertising</a>
-          </li>
-          <li>
-            <a href="#customize">customize</a>
-          </li>
-        </ul>
 
         <ul>
           <li>
+            <h3>pedia</h3>
             <video src="assets/videos/video-soccer_2.mp4"
                    poster="assets/videos/video-soccer-750x422.jpg"
                    loop>
@@ -72,6 +75,7 @@
             </figure>
           </li>
           <li>
+            <h3>pedparticipation</h3>
             <video src="assets/videos/video-action-thriller_2.mp4"
                    poster="assets/videos/video-action-thriller-750x422.jpg"
                    loop>
@@ -84,10 +88,11 @@
             </figure>
           </li>
           <li>
+            <h3>discovery</h3>
             <video src="assets/videos/video-army-helicopters.mp4"
                    poster="assets/videos/video-army-helicopters-750x422.jpg"
                    loop
-                    autoplay>
+                   autoplay>
             </video>
             <figure>
               <figcaption id="discovery">Offer personalised content with contextualised search, menu and recommendations
@@ -96,10 +101,11 @@
             </figure>
           </li>
           <li>
+            <h3>commerce</h3>
             <video src="assets/videos/video-city-3d-war_2.mp4"
                    poster="assets/videos/video-city-3d-war-750x422.jpg"
                    loop
-            autoplay>
+                   autoplay>
             </video>
             <figure>
               <figcaption id="commerce">reate new revenue engines through
@@ -109,6 +115,7 @@
             </figure>
           </li>
           <li>
+            <h3>advertising</h3>
             <video src="assets/videos/video-car-drive_2.mp4"
                    poster="assets/videos/video-car-drive-750x422.jpg"
                    loop>
@@ -120,6 +127,7 @@
             </figure>
           </li>
           <li>
+            <h3>customize</h3>
             <video src="assets/videos/video-kids-on-sofa_2.mp4"
                    poster="assets/videos/video-kids-on-sofa-750x422.jpg"
                    loop>
@@ -156,15 +164,16 @@
 
       <section id="more">
         <h2>Learn more about Comigo</h2>
+
+        <!-- can be link if the file sits next to the index.html or button if the javascript fo to the server to ask for
+        the file-->
+        <a href="#">Download our brochure to learn more</a>
+
         <a href="#">
-          <button type="submit">Download our brochure to learn more</button>
+          <img src="assets/other/comigo-schedule-meeting.png" alt="Schedule a meeting">
         </a>
         <a href="#">
-          Schedule a meeting
-          <img src="" alt="Schedule a meeting">
-        </a>
-        <a href="#">
-          Schedule a demo
+          <span>Schedule a demo</span>
           <img src="assets/other/screen_demo.jpg" alt="Schedule a demo">
         </a>
         <ul>
@@ -175,38 +184,42 @@
         </ul>
       </section>
 
-      <section class="blog">
+      <aside class="blog">
         <h2>Our blog</h2>
         <h3>The inside view</h3>
         <ul>
           <li>
-            <a href="#">Learn more
-              <span>Comigo's Experience Intellegence Product Redefine TV - And You Can Find Out How at IBC2016</span>
+            <a href="#">
+              <span>Learn more</span>
+              <p>Comigo's Experience Intellegence Product Redefine TV - And You Can Find Out How at IBC2016</p>
             </a>
           </li>
           <li>
-            <a href="#">Learn more
-              <span>What we learned at TV connect 2016</span>
+            <a href="#">
+              <span>Learn more</span>
+              <p>What we learned at TV connect 2016</p>
             </a>
           </li>
           <li>
-            <a href="#">Learn more
-              <span>Big data meets TV - The next phase in the TV experience evolution</span>
+            <a href="#">
+              <span>Learn more</span>
+              <p>Big data meets TV - The next phase in the TV experience evolution</p>
             </a>
           </li>
           <li>
-            <a href="#">Learn more
-              <span>Comigo will bring an infusion of internet power and contextual TV to life at TV connect 2016</span>
+            <a href="#">
+              <span>Learn more</span>
+              <p>Comigo will bring an infusion of internet power and contextual TV to life at TV connect 2016</p>
             </a>
           </li>
           <li>
-            <a href="#">Learn more
-              <span>Quality Set-Top-Boxes, Crappy cars and caveat emptor</span>
+            <a href="#">
+              <span>Learn more</span>
+              <p>Quality Set-Top-Boxes, Crappy cars and caveat emptor</p>
             </a>
           </li>
         </ul>
-      </section>
-
+      </aside>
     </main>
 
     <footer>
@@ -236,13 +249,17 @@
         </nav>
       </section>
       <section>
-        <ul>
-          <li>All rights reserved Comigo © 2016</li>
-          <li><a href="#">Terms of use</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-        <h4>Developed by Erez</h4>
+        <p>All rights reserved Comigo © 2016</p>
+        <a href="#">Terms of use</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+
+        <!-- TODO: change to address -->
+
+        <address class="author">
+          Developed by <em class="fn"><a title="Erez Reuven" href="#">Erez</a></em>
+        </address>
+
         <ul>
           <li><a href="https://www.facebook.com/Comigo-278941765529151">facebook</a></li>
           <li><a href="https://twitter.com/Comigo_Ltd">twitter</a></li>
