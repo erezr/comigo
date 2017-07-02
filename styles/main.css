@@ -1,0 +1,68 @@
+.button-as-link-red{
+  background-color: rgb(241, 72, 72);
+  color: white;
+  text-decoration: none;
+}
+
+.button-as-link-white{
+  background-color: white;
+  color: rgb(241, 72, 72);
+  text-decoration: none;
+}
+
+@media all and (max-width: 700px) {
+  header nav {
+    display: none;
+  }
+}
+
+header nav{
+  float: right;
+}
+
+header nav a{
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+header nav ul ul{
+  display: none;
+}
+
+header nav a:hover,
+header nav a:focus {
+  color: rgb(241, 72, 72);
+  display: block;
+}
+
+header nav a:hover + ul,
+header nav a:focus + ul{
+  display: inline-block;
+}
+
+header nav a:hover + ul:hover{
+  display: inline-block;
+}
+
+header nav li{
+  list-style: none;
+  float: left;
+  padding: 14px 16px;
+  display: inline;
+}
+
+
+.selected a{
+  text-decoration: none;
+  color: rgb(241, 72, 72);
+}
+
+.footer-nav {
+  background-color: rgb(61, 61, 61);
+}
+
+.bottom-footer{
+  background-color: rgb(21, 21, 21);
+  color: rgb(99, 99, 99);
+}
+
