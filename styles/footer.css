@@ -1,0 +1,17 @@
+
+.top-footer {
+  background-color: rgb(61, 61, 61);
+}
+
+.bottom-footer{
+  background-color: rgb(21, 21, 21);
+  color: rgb(99, 99, 99);
+}
+
+.bottom-footer a{
+  color: rgb(99, 99, 99);
+}
+
+.bottom-footer a:hover{
+  color: white;
+}

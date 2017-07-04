@@ -1,13 +1,5 @@
-.button-as-link-red{
-  background-color: rgb(241, 72, 72);
-  color: white;
-  text-decoration: none;
-}
-
-.button-as-link-white{
-  background-color: white;
-  color: rgb(241, 72, 72);
-  text-decoration: none;
+body{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media all and (max-width: 700px) {
@@ -16,53 +8,30 @@
   }
 }
 
-header nav{
-  float: right;
+a{
+  outline: none;
+  text-decoration: none;
 }
 
-header nav a{
-  text-decoration: none;
+li{
+  list-style: none;
+}
+
+
+.why_comigo{
+  width: 20%;
   color: rgb(61, 61, 61);
 }
 
-header nav ul ul{
-  display: none;
+.enhance{
+  background-image: url("../assets/other/ic-EI-cloud-brain-hp.png"), url("../assets/other/home-tv-service-bg1.png");
+  background-size: 20% auto, 50% auto;
+  background-repeat: no-repeat;
+  background-position-x: 25% , left;
+  color: white;
 }
 
-header nav a:hover,
-header nav a:focus {
-  color: rgb(241, 72, 72);
-  display: block;
+.deploy_on_android{
+  background-image: url("../assets/other/home-tv-service-bg2.png"), url("../assets/other/ic-stb-screens.png");
+  background-size: 50% auto, 20% auto;
 }
-
-header nav a:hover + ul,
-header nav a:focus + ul{
-  display: inline-block;
-}
-
-header nav a:hover + ul:hover{
-  display: inline-block;
-}
-
-header nav li{
-  list-style: none;
-  float: left;
-  padding: 14px 16px;
-  display: inline;
-}
-
-
-.selected a{
-  text-decoration: none;
-  color: rgb(241, 72, 72);
-}
-
-.footer-nav {
-  background-color: rgb(61, 61, 61);
-}
-
-.bottom-footer{
-  background-color: rgb(21, 21, 21);
-  color: rgb(99, 99, 99);
-}
-

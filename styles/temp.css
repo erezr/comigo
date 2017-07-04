@@ -1,0 +1,55 @@
+header nav{
+  float: right;
+}
+
+header nav ul ul{
+  display: none;
+}
+
+/*header nav a:hover,*/
+/*header nav a:focus {*/
+/*color: rgb(241, 72, 72);*/
+/*display: block;*/
+/*outline: none;*/
+/*}*/
+
+header nav a:hover + ul,
+header nav a:focus + ul{
+  display: inline-block;
+}
+
+header nav a:hover + ul:hover{
+  display: inline-block;
+}
+
+header nav li{
+  float: left;
+  padding: 14px 16px;
+  display: inline;
+}
+
+
+
+.top-nav nav > ul > li > a:hover,
+.top-nav nav > ul > li > a:focus{
+  color: rgb(241, 72, 72);
+  display: block;
+}
+
+.top-nav ul ul a{
+
+}
+
+.top-nav ul ul a:hover{
+  background-color: red;
+  color: #ffffff;
+}
+
+
+.selected a{
+  text-decoration: none;
+  color: rgb(241, 72, 72);
+}
+
+
+

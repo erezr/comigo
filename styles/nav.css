@@ -1,0 +1,28 @@
+
+.top-nav a{
+  color: rgb(61, 61, 61);
+}
+
+.top-nav a:hover,
+.top-nav a:focus{
+  color: rgb(241, 72, 72);
+}
+
+.top-nav ul ul a:hover{
+  background-color: rgb(241, 72, 72);
+  color: white;
+}
+
+
+.bottom-nav > ul > li > a{
+  color: white;
+}
+
+.bottom-nav ul ul a{
+  color: rgb(99, 99, 99);
+}
+
+.bottom-nav ul ul a:hover,
+.bottom-nav ul ul a:focus{
+  color: rgb(241, 72, 72);
+}

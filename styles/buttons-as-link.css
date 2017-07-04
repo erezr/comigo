@@ -1,0 +1,11 @@
+.button-as-link-red{
+  background-color: rgb(241, 72, 72);
+  color: white;
+  text-decoration: none;
+}
+
+.button-as-link-white{
+  background-color: white;
+  color: rgb(241, 72, 72);
+  text-decoration: none;
+}
