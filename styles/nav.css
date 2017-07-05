@@ -1,3 +1,6 @@
+nav{
+  text-align: center;
+}
 
 .top-nav a{
   color: rgb(61, 61, 61);
@@ -6,6 +9,12 @@
 .top-nav a:hover,
 .top-nav a:focus{
   color: rgb(241, 72, 72);
+}
+
+.top-nav ul ul a{
+  display: block;
+  /*width: 33%;*/
+  height: 100px;
 }
 
 .top-nav ul ul a:hover{

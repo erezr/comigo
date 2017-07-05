@@ -1,0 +1,40 @@
+.blog *{
+  color: white;
+}
+
+.blog header,
+.blog ul li{
+  height: 600px;
+  width: 16.666%;
+}
+
+.blog header{
+  background-color: rgb(241, 72, 72);
+}
+
+.blog li{
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blog li:nth-child(1){
+  background-image: url("../assets/blog/ibc_post_EI-750x508.png");
+
+}
+
+.blog li:nth-child(2){
+  background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
+}
+
+.blog li:nth-child(3){
+  background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
+}
+
+.blog li:nth-child(4){
+  background-image: url("../assets/blog/post_quality-750x508.jpeg");
+}
+
+.blog li:nth-child(5){
+  background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
+}
+
